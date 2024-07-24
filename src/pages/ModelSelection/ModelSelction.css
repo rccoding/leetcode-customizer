@@ -1,0 +1,146 @@
+.OuterModelSection {
+    top: 14%;
+    position: absolute;
+    z-index: 9999999999999;
+    background-color: white;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    /* height: 29%; */
+    overflow-y: scroll;
+    height: 320px;
+    right: 16%;
+    width: 57%;
+    padding: 20px 15px;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.purpleText {
+
+    color: #8250FF !important;
+}
+
+.purpleText img {
+    filter: brightness(0) invert(30%) sepia(69%) saturate(1934%) hue-rotate(239deg) brightness(103%) contrast(107%);
+}
+
+.model-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.model-option img {
+    height: 15px;
+}
+
+.model-option label {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.model-option input[type="radio"] {
+    /* Hide the default radio button */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Define a custom size for the radio button */
+    width: 10px;
+    height: 10px;
+    /* Add a border and border-radius for visual appeal */
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin: 0px;
+    cursor: pointer;
+}
+
+/* Change the appearance of the radio button when checked */
+input[type="radio"]:checked {
+    /* Change the color of the radio button */
+    background-color: #8250FF;
+    border: 2px solid #8250FF;
+    width: 10px;
+    height: 10px;
+    /* Change this to the color you want */
+}
+
+
+.LoderModel {
+    height: 80px;
+    width: auto;
+    position: absolute;
+    top: 43%;
+    right: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #999292;
+    padding: 10px 5px;
+    position: fixed;
+    background: white;
+    width: 56%;
+    top: 70px;
+    z-index: 2;
+}
+
+.BlurrBackgroundDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #999292;
+}
+
+.headerContainer h2 {
+    margin: 0px;
+    font-size: 15px;
+}
+
+.headerContainer img {
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.OuterModelSection::-webkit-scrollbar {
+    display: none;
+}
+
+.DefaultModels {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    gap: 5px;
+
+}
+
+.DefaultModelsInner {
+    display: flex;
+    gap: 5px;
+}
+
+.CustomModels {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #999292;
+}
+
+.CustomModelsHeader h3 {
+    color: #999292;
+    font-size: 15px;
+}

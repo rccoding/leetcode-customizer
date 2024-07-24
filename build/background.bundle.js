@@ -1,0 +1,1 @@
+chrome.tabs.query({active:!0,currentWindow:!0},(function(e){})),chrome.storage.local.get("theme",(e=>{}));

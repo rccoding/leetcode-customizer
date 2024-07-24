@@ -1,0 +1,36 @@
+/* Define custom fonts */
+@font-face {
+  font-family: 'Geist';
+  src: url('../../assets/fonts/Geist-Mono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist-Reg';
+  src: url('../../assets/fonts/Geist-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist-Semi';
+  src: url('../../assets/fonts/Geist-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply custom font to the body */
+body {
+  width: 350px;
+  height: 260px;
+  margin: 0;
+  font-family: 'Geist-Reg', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

@@ -1,0 +1,93 @@
+.LogoContainer {
+    opacity: 1;
+    height: 80px;
+    width: auto;
+    margin: 10px 0px;
+}
+
+.LogoContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    filter: invert(1) invert(30%) sepia(40%) saturate(3284%) hue-rotate(240deg) brightness(108%) contrast(101%)
+}
+
+.TextContainer h1 {
+    color: #8250ff;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.TextContainer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: azure; */
+}
+
+.TextContainer p {
+    color: rgb(169, 169, 169);
+    margin: 0px;
+}
+
+.OuterSignupContainer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    flex-direction: column;
+    gap: 30px;
+
+    justify-content: center;
+}
+
+.OuterSignupContainer input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    outline: none;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.ButtonContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+.ApikeyInput {
+    padding: 5px 0px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.BottomContainer {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    gap: 10px;
+}
+
+.ButtonContainer {
+    width: 30%;
+}
+
+.ButtonContainer button {
+    width: 100%;
+    border-radius: 10px;
+    background: #8250ff;
+    border: none;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.ButtonContainer p {
+    margin: 8px;
+}

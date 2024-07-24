@@ -1,0 +1,77 @@
+.MenuImage {
+    height: 20px;
+    width: auto;
+
+    cursor: pointer;
+}
+
+.listOptions li {
+    color: #1A1B29;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: start;
+}
+
+.Rotate90 {
+    transform: rotate(90deg);
+    filter: invert(1);
+}
+
+.Rotate180 {
+    transform: rotate(180deg);
+    filter: invert(1);
+}
+
+.hover-box-container {
+    position: relative;
+    top: 0px;
+    /* Adjust as needed */
+    right: 0px;
+    /* Adjust as needed */
+    z-index: 1000;
+}
+
+.menu-icon {
+    width: 30px;
+    /* Adjust as needed */
+    height: 30px;
+    /* Adjust as needed */
+    cursor: pointer;
+}
+
+.hover-box {
+    position: absolute;
+    top: 40px;
+    /* Adjust based on menu icon size */
+    right: 0;
+    width: 165px;
+    /* Adjust as needed */
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hover-box a {
+    text-decoration: none;
+}
+
+.hover-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hover-box ul li {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.hover-box ul li:last-child {
+    border-bottom: none;
+}
+
+.hover-box ul li:hover {
+    background-color: #f0f0f0;
+}
